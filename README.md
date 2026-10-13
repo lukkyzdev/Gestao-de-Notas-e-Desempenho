@@ -1,52 +1,35 @@
-# <img align="center" alt="Fontes-Python" height="35" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg"> ATIVIDADE PRÁTICA - Desenvolver um Sistema Simples de Gestão de Notas de Alunos <img align="center" alt="Fontes-Python" height="35" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg">
+# <img align="center" alt="Python" height="40" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg"> Gestão de Notas e Desempenho | Python Core
+
+Um sistema interativo de terminal desenvolvido em Python puro para processar, validar e analisar o desempenho escolar de alunos.
+
+O projeto foca na aplicação prática dos fundamentos da linguagem, implementando entrada de dados dinâmica, armazenamento estruturado em memória (Listas), processamento matemático e lógicas de validação.
+
+## 🎯 Objetivo do Projeto
+Construir um script automatizado que receba um volume variável de dados (notas), processe esses inputs e retorne um relatório analítico formatado. Este projeto serviu para consolidar conceitos essenciais de lógica de programação:
+- Interação contínua com o utilizador (Input/Output).
+- Manipulação de coleções de dados (Listas).
+- Controlo de fluxo com estruturas de repetição (`while`/`for`) e condicionais (`if`/`else`).
+
+## 🚀 Como Funciona a Lógica
+O sistema opera em três fases principais de processamento:
+1. **Coleta de Dados (Ingestão):** O script solicita a inserção de notas continuamente através de um laço de repetição. O utilizador encerra a coleta inserindo a *flag* de paragem `-1`.
+2. **Processamento Matemático:** O algoritmo percorre a lista de valores armazenados em memória e calcula a média aritmética.
+3. **Classificação e Relatório:** Com base na média gerada, o sistema aplica uma regra de negócio (Aprovado se >= 7, Reprovado se < 7) e imprime um boletim final detalhado.
+
+## 💻 Demonstração de Uso
+Abaixo, é possível visualizar a interação do utilizador via terminal, validando a inserção de dados e a geração do relatório final de aprovação:
+
+> **Execução e Relatório Final:**
+> 
+> ![Código em Execução](./images/códigoemexecução.png)
+
+> **Estrutura do Código:**
+> 
+> ![Código Completo](./images/códigocompleto.png)
+
+## 📂 Acesso ao Código Fonte
+O script completo com as validações e a lógica de processamento pode ser analisado no ficheiro abaixo:
+- [📄 Sistema Simples de Gestão de Notas de Alunos.py](https://github.com/lukkyzdev/PROJETO-SistemaSimplesDeGestaoDeNotasDeAlunos/blob/main/Sistema%20Simples%20de%20Gestão%20de%20Notas%20de%20Alunos.py)
 
 ---
-
-- ***Irei tentar explicar um pouco, mas como é meu início (meu primeiro código em python) não tenho certeza de muitas coisas (tive dificuldades, mas o código funciona).***
-
-*A recomendação da minha instituição foi utilizar o Google Colab para desenvolver o código e executá-lo.*
-
----
-
-## A ORIENTAÇÃO DO PROJETO FOI A SEGUINTE:
-
-Você foi contratado para desenvolver um sistema simples de gestão de notas de alunos. O sistema
-deve permitir que o usuário adicione notas, calcule a média das notas, determine a situação do
-aluno (aprovado ou reprovado), e exiba um relatório final. Utilize estruturas condicionais, de
-repetição e funções.
-
-**Cadastro de Notas:**
-
-• O sistema deve permitir que o usuário insira as notas dos alunos.
-
-• As notas devem ser armazenadas em uma lista.
-
-**Cálculo da Média:**
-
-• O sistema deve calcular a média das notas inseridas.
-
-**Determinação da Situação:**
-
-• Se a média for maior ou igual a 7, o aluno está aprovado.
-
-• Se a média for menor que 7, o aluno está reprovado.
-
-**Relatório Final:**
-
-• Exibir as notas inseridas, a média e a situação do aluno.
-
----
-
-## Vamos começar mostrando meu código por completo!
-
-Você pode acompanhar pela imagem abaixo ou pelo arquivo aqui no github ---> [Arquivo do Projeto](https://github.com/lukkyzdev/PROJETO-SistemaSimplesDeGestaoDeNotasDeAlunos/blob/main/Sistema%20Simples%20de%20Gestão%20de%20Notas%20de%20Alunos.py)
-
-![Código Completo](./images/códigocompleto.png)
-
-## Execução do Código e Explicações
-
-***Esse script em Python pede para o usuário digitar várias notas, uma por vez, até digitar -1 para parar. Depois, ele calcula a média dessas notas e diz se o aluno está aprovado (média maior ou igual a 7) ou reprovado (média menor que 7). No final, ele mostra todas as notas que você colocou, a média arredondada e a situação do aluno como mostrado na imagem abaixo:***
-
-![Código em Execução](./images/códigoemexecução.png)
-
-***Utilizei alguns dos meus conhecimentos aprendidos em aula, como a definição de classes, estruturas condicionais e de repetição.***
+*Desenvolvido por Lucas Fontes com foco na consolidação de lógica de programação e fundamentos de Python.*
